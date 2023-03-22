@@ -1,0 +1,78 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:cornflowerblue;
+}
+#punkte1 {
+    color: aliceblue;
+    font-size: 90px;
+}
+#punkte2 {
+    color: white;
+    font-size: 90px;
+}
+
+#digital-Std {
+    right: 6px;
+    margin-left: 2rem;
+    font-size: 70px;
+    box-shadow: inset 4px 4px 4px 9px violet;
+    background-color: darkgray;
+    color: wheat;
+}
+
+#digital-Min {
+    
+    font-size: 70px;
+    box-shadow: inset 4px 4px 4px 9px violet;
+    background-color: darkgray;
+    color: wheat;
+}
+
+#digital-Sec {
+    
+    font-size: 70px;
+    box-shadow: inset 4px 4px 4px 9px violet;
+background-color: darkgray;
+color: wheat;
+}
+#Analoge-Uhr {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+width: 55vmin;
+height: 55vmin;
+background-color: blueviolet;
+border:3px solid black;
+border-radius: 50%;
+box-shadow: inset 9px 9px 19px 9px  wheat;
+box-shadow: blue;
+
+}
+
+#Kreis {
+border-radius: 50%;
+
+background-color:black;
+width: 5%;
+height: 5%;
+
+}
+
+.digi-uhr {
+    background-color: blueviolet;
+    width: 40vmin;
+    height: 20vmin;
+    border: 6px solid black;
+    box-shadow: inset 9px 9px 19px  wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
