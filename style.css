@@ -1,78 +1,68 @@
 
-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color:cornflowerblue;
-}
-#punkte1 {
-    color: aliceblue;
-    font-size: 90px;
-}
-#punkte2 {
-    color: white;
-    font-size: 90px;
-}
-
-#digital-Std {
-    right: 6px;
-    margin-left: 2rem;
-    font-size: 70px;
-    box-shadow: inset 4px 4px 4px 9px violet;
-    background-color: darkgray;
-    color: wheat;
-}
-
-#digital-Min {
-    
-    font-size: 70px;
-    box-shadow: inset 4px 4px 4px 9px violet;
-    background-color: darkgray;
-    color: wheat;
-}
-
-#digital-Sec {
-    
-    font-size: 70px;
-    box-shadow: inset 4px 4px 4px 9px violet;
-background-color: darkgray;
-color: wheat;
+html {
+    box-sizing: border-box;
+background-color: aqua;
 }
 #Analoge-Uhr {
-    
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    
-width: 55vmin;
-height: 55vmin;
-background-color: blueviolet;
-border:3px solid black;
-border-radius: 50%;
-box-shadow: inset 9px 9px 19px 9px  wheat;
-box-shadow: blue;
+    border-radius: 55%;
+    position: relative;
+    left: 15%;
 
+    background-color:darkslateblue;
+    box-shadow: inset 9px 9px 9px 9px hotpink;
+    height: 60vmin;
+    width: 60vmin;
 }
 
+#std-sekunden {
+background-color: black;
+position: absolute;
+    width: 2px;
+    height: 48%;
+    transform: rotate(var(--seconden, 30deg)) translateY(-50%);
+} 
+
+#std-min {
+    position: absolute;
+    background-color: black;
+    width: 5px;
+    height: 48%;
+    transform: rotate(var(--minuten, 135deg)) translateY(-50%);
+}
+
+#std-zeiger {
+    position: absolute;
+    background-color: black;
+    width: 5px;
+    height: 25%;
+    transform: rotate(var(--stunden, 95deg)) translateY(-50%);
+}
 #Kreis {
-border-radius: 50%;
-
-background-color:black;
-width: 5%;
-height: 5%;
-
+    width: 5%;
+    height: 5%;
+    background-color: black;
+    border-radius: 50%;
 }
-
+ 
 .digi-uhr {
-    background-color: blueviolet;
-    width: 40vmin;
     height: 20vmin;
-    border: 6px solid black;
-    box-shadow: inset 9px 9px 19px  wheat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 40vmin;
+   background-color:blueviolet;
+   
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        position:absolute;
+        right: 30%;
+        
+      }
 
 
-}
+
+
+
+
